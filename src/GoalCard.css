@@ -1,0 +1,34 @@
+.goal-box.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.goal-image {
+  width: 100px;   /* ขนาดรูปตามต้องการ */
+  height: auto;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.goal-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.goal-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.goal-amount {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}

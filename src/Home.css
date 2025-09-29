@@ -1,13 +1,20 @@
-/* =====================  THEME COLORS  ===================== */
+/* 🎨 Comic Theme Colors */
 :root {
-  --bg-main: #0a0a0a;          /* พื้นหลังหลัก - ดำด้าน */
-  --bg-card: #121212;          /* กล่อง/การ์ด - ดำเข้ม */
-  --bg-hover: #1a1a1a;         /* สี hover */
-  --border:   #222;            /* เส้นขอบ */
-  --text-main:#e5e7eb;         /* ตัวอักษรหลัก */
-  --text-sub: #9ca3af;         /* ตัวอักษรรอง */
-  --accent:   #022b3d;         /* เขียวนีออน */
-  --accent-hover:#01151f;      /* เขียวนีออนเมื่อ hover */
+  --bg-main: #fffaf3;        /* ครีมอ่อน ๆ */
+  --bg-card: #fffdf7;        /* กล่องขาวนุ่ม */
+  --bg-hover: #ffe4b5;       /* hover เหลืองนวล */
+  --border: #222;            /* ขอบเข้มเหมือนเส้นการ์ตูน */
+  --text-main: #2b2b2b;      /* ข้อความเข้ม */
+  --text-sub: #555;          /* ข้อความรอง */
+  --accent: #b30e0c;         /* เหลืองสด */
+  --accent-hover: #ff9900;   /* เหลืองเข้ม */
+}
+
+/* 🎨 Comic Font */
+body {
+  font-family: "Comic Neue", "Fredoka One", cursive, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
 }
 
 /* =====================  GLOBAL  ===================== */
@@ -23,8 +30,10 @@ html, body {
 }
 
 body {
-  min-height: 100vh;
-  background: #000000; /* ดำเต็มจอ */
+  font-family: "Comic Neue", "Fredoka One", cursive, sans-serif;
+  background: url("comic.png") no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text-main);
 }
 
 /* UI container */
@@ -166,6 +175,11 @@ body {
   transition: all 0.25s ease;
 }
 .card:hover { transform: translateY(-2px); }
+
+.card {
+  background: rgba(255, 255, 255, 0.85); /* โปร่งใส */
+  backdrop-filter: blur(6px);
+}
 
 /* =====================  ACCOUNTS  ===================== */
 .accounts { display: flex; gap: 12px; }

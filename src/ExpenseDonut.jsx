@@ -17,7 +17,7 @@ export default function ExpenseDonut({ income, expense }) {
   const options = {
     cutout: "70%",           // ช่องกลางกว้าง
     plugins: {
-      legend: { position: "bottom", labels: { color: "#fff" } },
+      legend: { position: "bottom", labels: { color: "#494949ff" } },
     },
   };
 

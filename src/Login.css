@@ -71,7 +71,7 @@ body {
 
 .form-group input:focus {
   outline: none;
-  border-color: #001018;
+  border-color: #b30e0c;
 }
 
 .login-btn {
@@ -87,13 +87,13 @@ body {
 }
 
 .login-btn:hover {
-  background: #003d5a;
+  background: #ff9900;
 }
 
 .login-btn {
   width: 100%;
   padding: 12px;
-  background: #001018;
+  background: #b30e0c;
   border: none;
   border-radius: 6px;
   color: #fff; /* <-- เปลี่ยนสีตัวอักษรตรงนี้ */
